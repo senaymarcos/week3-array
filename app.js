@@ -62,13 +62,11 @@ console.log(bigArray);
 
 for (let index = 0; index < bigArray.length; index++) {
    for (let j = 0; j < bigArray[index].length; j++) {
-       const element = bigArray[index][j];
-       if (element.length==2) {
+    const element = bigArray[index];
+       if (bigArray[index].length==2) {
            console.log(element);
        }
    }
     
 }
-
-console.log(element);
 
